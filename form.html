@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Tzu Chi University</h1>
+    <form>
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" name="full-name" placeholder="Enter Your Full Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+      <label for="phone-number">Phone Number</label>
+      <input type="tel" id="phone-number" name="phone-number" placeholder="Enter Your Phone Number" required>
+
+      <label>Age</label>
+      <div class="radio-group">
+        <label><input type="radio"> 0-18</label>
+        <label><input type="radio"> 18-35</label>
+        <label><input type="radio"> 35+</label>
+      </div>
+
+      <label>Education</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> High School</label>
+        <label><input type="checkbox"> Some College</label>
+        <label><input type="checkbox"> Associate's Degree</label>
+        <label><input type="checkbox"> Bachelor's Degree</label>
+      </div>
+
+      <label for="Gender">Gender</label>
+      <div class="radio-group">
+        <label><input type="radio"> Male</label>
+        <label><input type="radio"> Female</label>
+        <label><input type="radio"> Other</label>
+      </div>
+
+    
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter a Message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
